@@ -1,4 +1,4 @@
-html{
+/* html{
     scroll-behavior: smooth;
 }
 body{
@@ -24,7 +24,7 @@ body{
     }
     .line{
         margin-top: -1rem;
-        margin-left: 12rem;
+        margin-left: 1rem;
         width: 115px;
     }
     nav{
@@ -50,7 +50,7 @@ body{
         font-family: Unica One;
         font-size: 48px;
         font-weight: 400;
-        line-height: 133%; /* 63.84px */
+        line-height: 133%; 
     }
     .countdown span{
         font-family: Montserrat;
@@ -80,4 +80,4 @@ body{
         opacity: .5;
     }
 
-}
+} */
