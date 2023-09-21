@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 nav{
-    padding: 2rem;
+    padding: 2rem; 
 }
 .logo{
     display: inline-block;
@@ -146,11 +146,11 @@ hr{
         line-height: 133%;
     }
     .images{
-        width: 100%;
+        width: 90%;
         background: #150E28, lightgray -0.057px -5.408px / 105.862% 104.281% no-repeat;
         background-blend-mode: hard-light;
         margin-top: -8rem;
-        margin-left: 3rem;
+        margin-left: 0rem;
     }
     .shades{
         width: 100%;
@@ -193,6 +193,7 @@ hr{
       margin: 0;
       padding: 0;
       padding-top: 4rem;
+      z-index: 40;
     }
     .nav-items li{
         display: block;
@@ -202,15 +203,15 @@ hr{
     #check:checked ~ .nav-items{
         right: 0;
     }
-    #chech:checked ~ .hamburger{
-        display: none;
-    }
+   
     #check:checked + .checkbtn .exit-nav {
         display: block;
         position: absolute;
         z-index: 50;
         transition: all .5s;
     }
-
+    #check:checked + .checkbtn .hamburger{
+        display: none;
+    }
 
 }
