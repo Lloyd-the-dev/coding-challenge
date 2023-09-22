@@ -213,5 +213,46 @@ hr{
     #check:checked + .checkbtn .hamburger{
         display: none;
     }
-
+    .second{
+        margin-top: -.5rem;
+    }
+    #overview{
+        margin-top: 2rem;
+        text-align: center;
+        width: 100%;
+        user-select: none;
+    }
+    .diamond{
+        margin-bottom: 10rem;
+    }
+    .idea-text{
+        margin: -8rem auto;
+        margin-bottom: 5rem;
+        width: 20%;
+        font-size: 1rem;
+        font-weight: 700;
+        user-select: none;
+    }
+    .arrow{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    
+    .purple-heading{
+        color: #D434FE;
+        margin-top: -1.4rem;
+        font-weight: 700;
+        font-family: 'Clash Display', sans-serif;
+    }
+    #overview p{
+        line-height: 2rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #overview hr{
+        margin: 4rem 0;
+    }
+    .guidlines{
+        background-image: url("./images/purple-gradient.png");
+    }
 }
