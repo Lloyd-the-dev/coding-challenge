@@ -250,9 +250,10 @@ hr{
         margin: 0 auto;
     }
     #overview hr{
-        margin: 4rem 0;
+        margin-top: 4rem;
     }
     .guidlines{
         background-image: url("./images/purple-gradient.png");
+        background-repeat: no-repeat;
     }
 }
